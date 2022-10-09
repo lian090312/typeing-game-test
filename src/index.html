@@ -1,25 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Typing Game</title>
+    <title>퍼즐게임</title>
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <div class="header">
-      <h1>타이핑마스터!</h1>
+    <div class="wrap-all">
+      <p class="play-time">0</p>
+      <ul class="image-container"></ul>
+      <button class="start-button">Start</button>
+      <p class="game-text">Completed!</p>
     </div>
-    <div class="word-display">Hello</div>
-    <div class="word-input-box">
-      <input type="text" class="word-input" />
-    </div>
-    <div class="game-info">
-      <div>남은시간: <span class="time">0</span>초</div>
-      <div>획득점수: <span class="score">0</span>점</div>
-    </div>
-    <button class="button loading">게임을 불러오는중...</button>
     <script src="JS/main.js"></script>
   </body>
 </html>
